@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 200vh;
+    background-color: lightblue;
+}
+
+.wrapper {
+    margin: 40px 80px;
+}
+
+.wrapper p {
+    font-size: 20px;
+    line-height: 200%;
+    text-align: justify;
+    font-family: arial;
+}
+
+.burger {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    font-size: 40px;
+    z-index: 1;
+}
+
+i.off {
+    display: none;
+}
+
+nav {
+    position: fixed;
+    top: -200px;
+    right: 0;
+    left: 0;
+    height: 200px;
+    background-color: darkblue;
+}
