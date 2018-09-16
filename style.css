@@ -27,15 +27,28 @@ body {
     z-index: 1;
 }
 
+i {
+    color: darkblue;
+}
+
+i.fa-angle-double-up {
+    color: lightblue;
+}
+
 i.off {
     display: none;
 }
 
 nav {
     position: fixed;
-    top: -200px;
+    top: 0;
     right: 0;
     left: 0;
     height: 200px;
     background-color: darkblue;
+    transition: .4s;
+}
+
+nav.off {
+    top: -300px;
 }
