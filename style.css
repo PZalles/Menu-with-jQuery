@@ -25,6 +25,7 @@ body {
     right: 30px;
     font-size: 40px;
     z-index: 1;
+    cursor: pointer;
 }
 
 i {
